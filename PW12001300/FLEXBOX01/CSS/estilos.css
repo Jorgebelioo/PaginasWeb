@@ -1,0 +1,37 @@
+.contenedor{
+    background: khaki;
+    border: 1px solid black;
+    padding: 5px;
+    height: 400px;
+    display: flex;
+    /* flex-direction: row; */
+    /* flex-wrap: nowrap; */
+    flex-flow: row nowrap;
+    justify-content: center;
+    /* flex-wrap: wrap-reverses; */
+    /* align-items: stretch; */
+    align-items: center;
+}
+
+.box{
+    border: 3px solid black;
+    font-size: 30px;
+    margin: 15px;
+    width: 100px;
+    background: lightblue;
+}
+
+.b1{
+    order: 1;
+    flex-grow: 0;
+}
+
+.b2{
+    order: 1;
+    flex-grow: 1;
+}
+
+.b3{
+    order: 1;
+    flex-grow: 0;
+}
